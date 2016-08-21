@@ -1,0 +1,340 @@
+div.productDetails {
+	border: 1px solid black;
+}
+div.productDetails > table{
+	border-collapse: collapse;	
+}
+
+div.stepContainer {
+	background-color: #d0e9f5;
+	border: 1px solid black;
+	border-radius: 3px;
+	display: inline-block;
+	font-family: Arial;
+	font-size: 0.9em;
+	min-width: 468px;
+}
+
+#productSelectorContainer {
+
+}
+
+div.productContainer {
+	background-color: #94D3EF;
+	border: 1px solid black;
+	border-radius: 3px;
+	margin: 3px;
+	margin-bottom: 10px;
+	padding: 5px;
+	width: 450px;
+}
+div.productContainer img {
+	cursor: pointer;
+	float: right;
+}
+div.productFinder {
+	margin-bottom: 2px;
+}
+div.productContainer th {
+	background-color: #070b6f;
+	color: white;
+	font-family: Arial;
+	font-size: .75em;
+	padding: 2px;
+}
+div.productContainer td {
+	background-color: white;
+	padding: 0px;
+}
+div.productContainer td input {
+	border: 1px solid blue;
+	border-radius: 3px;
+	margin: 3px;
+	padding: 0px;
+}
+
+#addProductLinkContainer {
+	text-align: center;
+}
+#addProductLink {
+	cursor: pointer;
+	font-family: Arial;
+	font-size: 0.85em;
+	margin-bottom: 5px;
+}
+
+div.sectionHeader {
+	background-color: #070b6f;
+    color: white;
+    font-family: Arial;
+    padding: 3px;
+}
+
+/* Order form */
+div#orderFormContainer {
+
+}
+div#orderFormContainer input.invoiceNumberInput {
+	width: 160px;
+}
+
+/* Modal todo - remove*/
+div.modal-overlay {
+	background-color: rgba(0, 0, 0, 0.4);
+	height: 100%;
+	left: 0;
+	overflow: auto;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+}
+div.modal-content {
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 3px;
+	left: 35%;
+	padding: 3px;
+	position: fixed;
+	text-align: center;
+	top: 30%;
+	z-index: 3;
+}
+div.modal-content table {
+	text-align: left;
+}
+div.modal-content > img {
+	cursor: pointer;
+	float: right;
+}
+
+/* Matching products */
+div.matchingProductsContainer {
+	background-color: white;
+	border: 1px solid gray;
+	border-radius: 3px;
+	display: inline-block;
+	left: 118px;
+	padding: 2px;
+	position: fixed;
+}
+div.matchingProduct {
+	border-radius: 3px;
+	cursor: pointer;
+}
+div.matchingProduct:hover {
+	background-color: #FFEE77;
+}
+
+/* Invoice display */
+div#invoiceDisplayContainer div#invoiceContainer {
+	border: 1px solid black;
+	border-radius: 3px;
+	background-color: white;
+	margin: 5px;
+}
+div#invoiceDisplayContainer > div > img {
+	cursor: pointer;
+	float: right;
+	margin: 3px;
+}
+div#invoiceDisplayContainer > div > img.dirtyInvoiceAlert{
+	cursor: default;
+	float: left;
+}
+div#invoiceDisplayContainer p.invoiceInformationHeader:first-child {
+	margin-top: 18px;
+}
+div#invoiceDisplayContainer p.invoiceInformationHeader {
+	background-color: black;
+	color: white;
+}
+div#invoiceDisplayContainer table {
+	border-collapse: collapse;
+	margin: 3px;
+}
+div#invoiceDisplayContainer th {
+	background-color: #CCCCCC;
+	border: 1px solid black;
+}
+div#invoiceDisplayContainer td {
+	border: 1px solid black;
+}
+div#invoiceDisplayContainer tr.invoiceTotalRow > td {
+	border: none;
+}
+div#invoiceDisplayContainer tr.invoiceTotalRow > td.invoiceTotalCell {
+	border: 1px solid black;
+}
+div#invoiceDisplayContainer div.invoiceButtonBar {
+	margin: 5px;
+	text-align: center;
+}
+div#invoiceDisplayContainer div.invoiceButtonBar input {
+	margin: 2px;
+}
+
+/* Invoice selector */
+div#invoiceSelectorContainer div.invoiceSelector {
+	border: 1px solid black;
+	border-radius: 3px;
+	display: inline-block;
+}
+div#invoiceSelectorContainer p {
+	font-size: 0.9em;
+	margin: 0px;
+	text-align: center;
+}
+div#invoiceSelectorContainer p.itemCount {
+	background-color: white;
+	color: black;
+}
+div.invoiceThumbnail {
+	border: 1px solid black;
+	border-radius: 3px;
+	cursor: pointer;
+	display: inline-block;
+	margin: 3px;
+	min-width: 50px;
+}
+div.invoiceThumbnail img {
+	margin-left: 5px;
+}
+div.invoiceThumbnail p {
+	background-color: black;
+	color: white;
+	margin: 0px;
+	padding: 2px;
+}
+
+/* Date picker */
+div.react-datepicker {
+	background-color: white;
+	border: 1px solid gray;
+	border-image-repeat: initial;
+	border-image-slice: initial;
+	border-image-source: initial;
+	border-image-outset: initial
+	border-image-width: initial;
+	border-radius: 4px;
+	border-width: 1px;
+	color: #000000;
+	display: inline-block;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	position: relative;
+}
+.react-datepicker__current-month {
+	margin-top: 0;
+	color: #000;
+	font-weight: bold;
+	font-size: 13px;
+}
+.react-datepicker__day {
+	cursor: pointer;
+	display: inline-block;
+	height: 24px;
+	line-height: 24px;
+	margin: 2px;
+	width: 24px;
+}
+.react-datepicker__day:hover {
+    border-radius: 4px;
+    background-color: #94D3EF;
+    color: black;
+}
+.react-datepicker__day-name{
+  color: #000;
+  display: inline-block;
+  width: 24px;
+  line-height: 24px;
+  text-align: center;
+  margin: 2px;
+}
+.react-datepicker__day--selected {
+	background-color: #070b6f;
+	border-radius: 4px;
+	color: white;
+	display: inline-block;
+	width: 24px;
+}
+.react-datepicker__day--today {
+    font-weight: bold;
+}
+.react-datepicker__header {
+	background-color: #eeeeee;
+	border-bottom: 1px solid gray;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	padding-top: 8px;
+	position: relative;
+	text-align: center;
+}
+.react-datepicker__month {
+	margin: 5px;
+	text-align: center;
+}
+.react-datepicker__today-button {
+  background: #f0f0f0;
+  border-top: 1px solid #aeaeae;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  padding: 5px 0;
+}
+.react-datepicker__triangle {
+  top: 0;
+  margin-top: -8px;
+  position: absolute;
+}
+.react-datepicker__week {
+	border: none;
+	color: black;
+	text-align: center;
+	vertical-align: baseline;
+}
+
+.react-datepicker__navigation {
+  line-height: 24px;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  width: 0;
+  border: 6px solid transparent;
+}
+.react-datepicker__navigation--previous {
+	left: 10px;
+    border-right-color: #ccc;
+}
+.react-datepicker__navigation--previous:hover {
+	border-right-color: #b3b3b3;
+}
+.react-datepicker__navigation--next {
+	right: 10px;
+    border-left-color: #ccc;
+}
+.react-datepicker__navigation--next:hover {
+	border-left-color: #b3b3b3;
+}
+.react-datepicker__navigation--years {
+	position: relative;
+	top: 0;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.react-datepicker__navigation--years-previous {
+	top: 4px;
+	border-top-color: #ccc;
+}
+.react-datepicker__navigation--years-previous:hover {
+	border-top-color: #b3b3b3;
+}
+.react-datepicker__navigation--years-upcoming {
+	top: -4px;
+	border-bottom-color: #ccc;
+}
+.react-datepicker__navigation--years-upcoming:hover {
+    border-bottom-color: #b3b3b3;
+}
